@@ -1,0 +1,159 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+header {
+    width: 100%;
+box-sizing: border-box;
+}
+
+header div {
+    width: 100%;
+}
+
+#menu-bar {
+    width: 50px;
+}
+
+ /* #sidebar {
+    box-sizing: border-box;
+    transform: translateY(-28px);
+    background-color: white;
+    width:13%;
+    height: 100vh;
+
+}  */
+
+/* ul {
+    list-style: none;
+    font-size: 25px;
+    line-height: 60px;
+} */
+
+
+li {
+    display: none;
+}
+
+#d {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    margin-left: 50%;
+    font-size: 30px;
+    transform: translateY(-45px);
+}
+
+#text {
+margin-left: 40%;
+margin-top: 20%;
+}
+
+
+
+
+.small {
+    font-size: 15px;
+}
+
+.big {
+    font-size: 70px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        background-color: lightblue;
+        margin: 0;
+        /* overflow: hidden; */
+    }
+    
+    header {
+        width: 100%;
+        height: auto;
+    box-sizing: border-box;
+    }
+
+
+    header div {
+        width: 100%;
+        
+    }
+    
+    #menu-bar {
+        width: 50px;
+    }
+    
+    #sidebar {
+        box-sizing: content-box;
+        /* transform: translateY(-28px); */
+        background-color: white;
+        width:33%;
+        height: 100vh;
+        transform: translateY(-24px);
+
+    }
+    
+    ul {
+        list-style: none;
+        font-size: 25px;
+        line-height: 60px;
+        overflow-y: hidden;
+       text-align: center;
+    }
+
+
+    li {
+        display: block;
+        list-style: none;
+        font-size: 30px;
+        line-height: 60px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+ 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+    }
+    
+    button {
+        /* margin-left: auto;
+        margin-right: auto; */
+        font-size: 30px;
+        transform: translateY(-790px);
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    
+    #text {
+        font-size: 30px;
+        margin-left: 35%;
+        transform: translateY(-400px);
+    }
+    
+    
+    
+    
+    .small {
+        font-size: 15px;
+    }
+    
+    .big {
+        font-size: 70px;
+    }
+    
+
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+}
